@@ -4,7 +4,8 @@
 
 struct piano {
     int price;
-    char *brand;
+    char *brand; //by making a pointer, it's not storing the brand string in the struct, it's somewhere else in memory
+    //char brand[50];
 };
 
 struct piano pExample() {
