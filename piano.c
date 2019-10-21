@@ -27,7 +27,7 @@ void setPrice(struct piano *x, int p){
 }
 
 void setBrand(struct piano *x, char *b){
-    (*x).brand = b;
+    x->brand = b;   //different way to dereference
 }
 
 int main() {
